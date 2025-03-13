@@ -1,0 +1,23 @@
+.comment-form {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    .comment-form {
+        padding: 5px;
+    }
+
+    .comment-form input,
+    .comment-form textarea {
+        padding: 3px;
+    }
+}
